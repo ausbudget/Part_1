@@ -119,13 +119,9 @@ nav ul{
 .content {
   display: block;
   z-index: 0;
-<<<<<<< HEAD
   position: relative;
   padding-top: 12%;
-=======
   position: relative;;
-  padding-top: 5%;
->>>>>>> be56a875d17f2cb736c4dff559a03e67ed3723f5
   padding-left: 15%;
   padding-right: 15%;
 }

@@ -1,4 +1,3 @@
-console.log('reading time loaded')
 ;(function ($, window, document, undefined) {
 
   var pluginName = "readingTime";
