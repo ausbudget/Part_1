@@ -27,12 +27,12 @@ h2 {
 }
 header {
   z-index: 30;
-  display: inline;
+  display: block;
   opacity: 1;
   background-color: black;
   left: 0;
   top: 0;
-  position: fixed;
+  position: absolute;
   margin: 0;
   border-style: groove;
   border-width: 1px;
@@ -59,7 +59,7 @@ header #and-stuff{
 }
 #nav-button{
   z-index: 30;
-  position: fixed;
+  position: absolute;
   color: white;
   font-size: 2.5rem;
   float: right;
@@ -73,12 +73,12 @@ header #and-stuff{
 }
 nav{
   z-index: 30;
-  /*display: none;*/
+  display: block;
   color: white;
-  padding: 0;
-  left: 0;
-  top: 14%;
-  position: fixed;
+  /*padding: 0;
+  left: 0;*/
+  /*top: 100px;*/
+  /*position: relative;*/
   margin: 0;
   /*border-style: groove;
   border-width: 1px;*/
@@ -116,8 +116,8 @@ nav ul{
 .content {
   display: block;
   z-index: 0;
-  position: relative;
-  padding-top: 10%;
-  padding-left: 5%;
-  padding-right: 5%;
+  position: relative;;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
