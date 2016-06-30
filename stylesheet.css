@@ -1,5 +1,6 @@
 body {
- font-family: 'Indie Flower', cursive;
+ /*font-family: 'Indie Flower', cursive;*/
+  font-family: 'Open Sans', sans-serif;
   background: #87CEFA; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(-90deg, #CCFFFF, white); /* For Safari 5.1 to 6.0 */*/
   background: -o-linear-gradient(-90deg, #CCFFFF, white); /* For Opera 11.1 to 12.0 */
@@ -20,12 +21,14 @@ p {
   text-align: justify;
 }
 h2 {
+  font-family: 'Indie Flower', cursive;
   color: #003300;
   text-decoration: underline;
   font-weight: 900;
-  font-size: 1.rem;
+  font-size: 2rem;
 }
 header {
+  font-family: 'Indie Flower', cursive;
   z-index: 30;
   display: block;
   opacity: 1;
@@ -116,8 +119,9 @@ nav ul{
 .content {
   display: block;
   z-index: 0;
+  position: relative;
+  padding-top: 12%;
   position: relative;;
-  padding-top: 5%;
   padding-left: 15%;
   padding-right: 15%;
 }
