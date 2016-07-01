@@ -78,8 +78,7 @@ header #and-stuff{
   /*font-size: 2rem;*/
 
 }
-#nav-button{
-  z-index: 30;
+/*#nav-button{
   position: absolute;
   color: white;
   font-size: 2.5rem;
@@ -88,12 +87,10 @@ header #and-stuff{
   top: 1%;
   /*border-style: solid;
   border-width: 2px;*/
-  padding: 0.5% 0.5%;
   /*border-radius: 20%*/
 
-}
+}*/
 nav{
-  z-index: 30;
   display: block;
   color: white;
   /*padding: 0;
@@ -136,6 +133,7 @@ nav ul{
 
 .content {
   display: block;
+<<<<<<< HEAD
   z-index: 0;
   position: relative;
   /*padding-top: 12%;*/
