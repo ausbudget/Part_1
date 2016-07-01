@@ -24,23 +24,12 @@
   }
 }
 
+/*end background diagonal */
 
 body {
  /*font-family: 'Indie Flower', cursive;*/
   font-family: 'Open Sans', sans-serif;
-  background: #87CEFA; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(-90deg, #CCFFFF, white); /* For Safari 5.1 to 6.0 */*/
-  background: -o-linear-gradient(-90deg, #CCFFFF, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-90deg, #CCFFFF, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-90deg, #CCFFFF, white); /* Standard syntax */
-
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           /* Non-prefixed version, currently
-                                  not supported by any browser */
+  background: #FFFFFF;
 }
 p {
   color: #003300;
@@ -53,6 +42,7 @@ h2 {
   color: #003300;
   font-weight: 900;
   font-size: 2rem;
+  text-align: center;
 }
 header {
   /*font-family: 'Indie Flower', cursive;*/
@@ -345,11 +335,11 @@ img[class^=icon] {
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:900);
 
-article {
+.headliner {
   display: block;
   position: relative;
   margin: 10% auto 0 auto;
-  max-width: 60rem;
+  /*max-width: 200rem;*/
   padding: 0 1rem 0 1rem;
 }
 
@@ -357,6 +347,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 6rem;
   color: transparent;
+  text-align: center;
 }
 h1:before, h1:after {
   content: attr(name);
@@ -369,13 +360,24 @@ h1:before, h1:after {
       -ms-user-select: none;
           user-select: none;
 }
+
 h1:before {
-  color: white;
+  color: #7ace70;
+  -webkit-mask-image: -webkit-linear-gradient(320deg, #222 50%, transparent 50.5%);
+  mask-image: linear-gradient(-130deg, #222 50%, transparent 50.5%);
+}
+h1:after {
+  color: #191919;
+  -webkit-mask-image: -webkit-linear-gradient(140deg, #222 50%, transparent 50.5%);
+  mask-image: linear-gradient(-130deg, #222 50%, transparent 50.5%);
+}
+/*h1:before {
+  color: tomato;
   -webkit-mask-image: -webkit-linear-gradient(220deg, #222 50%, transparent 50.5%);
   mask-image: linear-gradient(130deg, #222 50%, transparent 50.5%);
 }
 h1:after {
-  color: tomato;
+  color: #68c75d;
   -webkit-mask-image: -webkit-linear-gradient(40deg, #222 50%, transparent 50.5%);
   mask-image: linear-gradient(130deg, #222 50%, transparent 50.5%);
-}
+}*/
