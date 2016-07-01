@@ -91,3 +91,5 @@ $(window).scroll(function() {
 
 var txt = $( ".sliced" ).text();
 $( ".sliced" ).attr("name", txt);
+
+// pagination
