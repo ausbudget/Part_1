@@ -3,12 +3,13 @@
   font-size: 2.5rem;
 }
 
-.link {
+.reference-link {
   background-color: #7ace70;
   text-decoration: none;
   color: #191919;
   padding-left: 5px;
   padding-right: 5px;
+  font-size: 0.6em;
 }
 
 .link:hover {
